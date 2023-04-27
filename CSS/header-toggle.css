@@ -1,0 +1,30 @@
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.navbar{
+    background-color: transparent!important;
+}
+.nav-link{
+    color: black!important;
+}
+.navbar-brand{
+    color: black!important;
+}
+.social-icon{
+    margin: 0px 5px;
+    width: 20px;
+}
+.back-icon-toggle{
+    background-color: black;
+}
+/* Toggle header */
+.toggle-header{
+    background-color: #000;
+}
+.toggle-header .nav-link,
+.toggle-header .navbar-brand{
+    color: white!important;
+}

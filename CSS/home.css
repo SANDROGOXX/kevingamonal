@@ -1,0 +1,43 @@
+/* config text of main section */
+.section-home::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/img-home.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.section-home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-home{
+    width: 80%;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.title-home,
+.subtitle-home{
+    text-align: center;
+    color: white;
+    font-family: rubik, montserrat, sans-serif;
+}
+
+.title-home{
+    font-size: 32px;
+}
+
+.subtitle-home{
+    font-size: 16px;
+}

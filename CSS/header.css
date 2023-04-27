@@ -1,0 +1,19 @@
+/* Header sticky and acord with the background */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: transparent!important;
+}
+.nav-link{
+    color: white!important;
+}
+.social-icon{
+    margin: 0px 5px;
+    width: 20px;
+}
